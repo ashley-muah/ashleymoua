@@ -13,14 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kevin Xiao - Software Engineer & Computer Science Student",
+  title: "Kevin Xiao",
   description:
-    "Personal portfolio of Kevin Xiao, Computer Science & Mathematics student at the University of Washington. Software Development Engineer with experience at AWS, passionate about AI, full-stack development, and building impactful solutions.",
+    "Personal Website for Kevin Xiao, CS and Math Double Major at University of Washington.",
   keywords: [
     "Kevin Xiao",
     "Software Engineer",
     "Computer Science",
     "University of Washington",
+    "Meta",
     "AWS",
     "Full Stack Developer",
     "AI",
@@ -28,9 +29,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Kevin Xiao" }],
   openGraph: {
-    title: "Kevin Xiao - Software Engineer",
+    title: "Kevin Xiao",
     description:
-      "Computer Science & Mathematics student at UW. SDE Intern at AWS. Building innovative software solutions.",
+      "Computer Science & Mathematics student at UW.",
     type: "website",
   },
 };
