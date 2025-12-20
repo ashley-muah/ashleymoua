@@ -102,14 +102,14 @@ export const resumeData: ResumeData = {
     },
     {
       title: "Research Assistant",
-      company: "Paul G. Allen School of Computer Science & Engineering",
+      company: "RAIVN Lab",
       location: "Seattle, WA",
       period: "Dec 2026 – Present",
       description: [
-        "🔬 RAIVN Lab - AI Agents for Radiomics Research",
+        "🔬 Radiomic and Spatial Models for Agentic Medical Research",
       ],
       technologies: [],
-      logo: "/logos/paul.png",
+      logo: "/logos/raivn.png",
     },
     {
       title: "Software Development Engineer Intern",
