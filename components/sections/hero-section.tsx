@@ -9,7 +9,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="flex items-center justify-center px-4 py-8 sm:py-10"
+      className="flex items-center justify-center px-4 pt-16 pb-6 sm:pt-22 sm:pb-8"
     >
       <div className="max-w-2xl mx-auto">
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-8">

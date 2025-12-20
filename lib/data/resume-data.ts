@@ -63,7 +63,7 @@ export const resumeData: ResumeData = {
     phone: "425-525-9964",
     email: "xckevin@cs.washington.edu",
     linkedin: "linkedin.com/in/xckev",
-    github: "xckev.github.io",
+    github: "github.com/xckev",
   },
 
   education: {
@@ -206,6 +206,7 @@ export const resumeData: ResumeData = {
       "x86-64 Assembly",
     ],
     frameworks: [
+      "PyTorch",
       "Node.js",
       "React.js",
       "Next.js",
@@ -230,7 +231,7 @@ export const resumeData: ResumeData = {
     concepts: [
       "Machine Learning",
       "Object-Oriented Programming",
-      "Web Frameworks",
+      "Web Development",
       "Databases",
       "Full stack",
       "Cloud Computing",

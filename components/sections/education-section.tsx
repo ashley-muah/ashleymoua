@@ -12,7 +12,7 @@ export function EducationSection() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <section id="education" className="py-6 px-4">
+    <section id="education" className="pt-6 pb-8 px-4">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">Education</h2>
         <Separator className="mb-6" />

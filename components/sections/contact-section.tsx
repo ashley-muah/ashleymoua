@@ -11,7 +11,7 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "xckevin [at] cs dot washington dot edu",
+      value: "xckevin at cs dot washington dot edu",
       href: `mailto:${personalInfo.email}`,
       description: "Send me an email",
     },
@@ -41,11 +41,11 @@ export function ContactSection() {
   return (
     <section id="contact" className="py-6 px-4 pb-24">
       <div className="max-w-2xl mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Get In Touch</h2>
+        <h2 className="text-2xl font-bold mb-4">Contact</h2>
         <Separator className="mb-6" />
 
         <Card>
-          <CardContent className="pt-4">
+          <CardContent className="pt-2">
             <p className="text-sm text-muted-foreground mb-6 text-center">
               I&apos;m open to new opportunities. Feel free to reach out!
             </p>

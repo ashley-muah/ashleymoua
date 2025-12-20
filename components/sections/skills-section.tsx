@@ -47,7 +47,7 @@ export function SkillsSection() {
             const Icon = category.icon;
             return (
               <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader className="pb-3">
+                <CardHeader className="pb-0">
                   <CardTitle className="flex items-center gap-1.5 text-base">
                     <Icon className="h-4 w-4 text-primary" />
                     {category.title}
