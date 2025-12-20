@@ -33,6 +33,7 @@ npm run lint
 ### Components
 - **shadecn/ui** version 3.6.2 for components.
 - Using Neutral base color
+- Basing website content off of `Kevin_Xiao_Resume.pdf`
 
 ### Styling
 - **Tailwind CSS v4** with PostCSS plugin (`@tailwindcss/postcss`)
