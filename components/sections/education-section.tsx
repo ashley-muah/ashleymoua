@@ -64,11 +64,11 @@ export function EducationSection() {
           {/* Collapsible Content */}
           {isExpanded && (
             <div className="mt-3 ml-16 space-y-3">
-              <div>
+              {/* <div>
                 <p className="text-sm font-semibold text-foreground">
                   GPA: {education.gpa.toFixed(2)}
                 </p>
-              </div>
+              </div> */}
 
               <div>
                 <h4 className="text-sm font-semibold text-foreground mb-1.5">

@@ -13,7 +13,6 @@ export interface Education {
   institution: string;
   location: string;
   degrees: string[];
-  gpa: number;
   period: string;
   achievements: string[];
   coursework: string[];
@@ -43,8 +42,6 @@ export interface Project {
 
 export interface Skills {
   languages: string[];
-  frameworks: string[];
-  developerTools: string[];
   concepts: string[];
 }
 
@@ -59,75 +56,74 @@ export interface ResumeData {
 // Resume Data
 export const resumeData: ResumeData = {
   personalInfo: {
-    name: "Kevin",
-    title: "CS + Math @ University of Washington",
-    phone: "425-525-9964",
-    email: "xckevin@cs.washington.edu",
-    linkedin: "linkedin.com/in/xckev",
-    github: "github.com/xckev",
+    name: "Ashley",
+    title: "INFO @ University of Washington",
+    phone: "509-929-9732",
+    email: "amoua1@uw.edu",
+    linkedin: "linkedin.com/in/ashley-moua1",
+    github: "github.com/ashley-muah",
     abouts: [
-      "Incoming Software Engineer Intern at Meta",
-      "Research Assistant in UW RAIVN Lab",
-      "USACO Gold Division and 2x AIME Qualifier",
-      "DJ for local college events, bars, and nightclubs",
-      "I love basketball, snowboarding, and EDM!"
+      "Currently an Analyst @ TalentBloom: Passenger Service System management for a global airline integration.",
+      "Research Assistant in UW ADAPT",
+      "Prev. gaming YouTuber and marketing intern.",
+      "I love matcha, Pokémon, and chinchillas!"
     ],
   },
 
   education: {
     institution: "University of Washington",
     location: "Seattle, WA",
-    degrees: ["B.S. Computer Science", "B.A. Mathematics"],
-    gpa: 3.91,
-    period: "Sept 2023 - June 2027",
-    achievements: ["Dean's List", "Publication Accepted to ACM IUI"],
+    period: "2024-2026",
+    degrees: ["B.S. Informatics"],
+    achievements: ["Washington State Opportunity Scholar: Cohort 13", "Washington NASA Space Grant Recipient @ UW", "Panhellenic Endowment Scholarship Recipient", "Dean's List"],
     coursework: [
-      "Data Structures",
-      "Algorithms",
-      "Artificial Intelligence",
-      "Numerical Analysis",
-      "Machine Learning",
-      "Software Design & Implementation",
-      "Computer Vision",
-      "Systems Programming",
-      "Software Tools",
-      "Discrete Math",
+      "Client-side Development (HTML/CSS, JavaScript, React.js, Firebase)",
+      "Introduction to Java series",
+      "Data Science Foundations (R)",
+      "Research Methods",
+      "Cooperative Software Development",
+      "Databases & Data Modeling (SQL)",
+      "Design Methods (Figma)",
+      "Product & Information System Management",
+      "Project & Program Management",
+      "Content Strategy in Information Architecture",
     ],
     logo: "/logos/uw.png",
-  },
+  }
+  ,
 
   experiences: [
     {
-      title: "Incoming Software Engineer Intern",
-      company: "Meta",
-      location: "Menlo Park, CA",
-      period: "Jun 2026 – Sept 2026",
+      title: "Analyst",
+      company: "TalentBloom",
+      location: "Bellevue, WA",
+      period: "Oct 2025 – Current",
       description: [
-        "Summer 2026",
+        "Managing 630+ milestones & RAID logs in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration, and updating dashboards and decks for leadership.",
       ],
       technologies: [],
       logo: "/logos/metalogo.png",
     },
     {
       title: "Research Assistant",
-      company: "RAIVN Lab",
+      company: "UW Acculturation, Diversity, and Psychopathology Team",
       location: "Seattle, WA",
-      period: "Dec 2026 – Present",
+      period: "July 2025 – Present",
       description: [
-        "🔬 Radiomic and Spatial Models for Agentic Medical Research",
+        "Led advisory board recruitment & designed campaigns for participant recruitment. ",
       ],
       technologies: [],
       logo: "/logos/raivn.png",
     },
     {
-      title: "Software Development Engineer Intern",
-      company: "Amazon Web Services (AWS)",
-      location: "Seattle, WA",
-      period: "Jun 2025 – Sept 2025",
+      title: "Content Intern",
+      company: "Hunch Studios",
+      location: "New York, NY",
+      period: "June 2025 – August 2025",
       description: [
-        "🛠️ Amazon Connect - Agentic AI Tools",
+        "I'm a huge fan of the viral card game Incohearent, it's a really good card game that you should purchase. May I suggest more games to play?",
       ],
-      technologies: ["MCP", "AI", "AWS"],
+      technologies: [],
       logo: "/logos/amazon.png",
     },
     {
@@ -259,56 +255,36 @@ export const resumeData: ResumeData = {
 
   skills: {
     languages: [
-      "Python",
       "Java",
-      "C++",
-      "C",
       "JavaScript",
-      "TypeScript",
       "HTML/CSS",
-      "Swift",
       "SQL",
-      "MQL",
-      "x86-64 Assembly",
-    ],
-    frameworks: [
-      "PyTorch",
-      "Node.js",
-      "React.js",
-      "Next.js",
-      "Express.js",
-      "Flask",
-      "SwiftUI",
-      "Flutter",
-      "Bazel",
-      "FastAPI",
-      "JUnit",
-      "Jest",
-    ],
-    developerTools: [
-      "Git",
-      "Linux",
-      "Amazon Web Services",
-      "Google Cloud Platform",
-      "Microsoft Azure",
-      "Docker",
-      "TSLint",
+      "R",
+      "Figma",
+      "Miro",
+      "Qualtrics",
+      "RedCap",
+      "SmartSheet",
+      "Canva",
+      "Azure DevOps",
+      "Azure Data Studio",
+      "Tableau",
+      "Google Suite",
+      "Microsoft Office"
     ],
     concepts: [
-      "Machine Learning",
-      "Object-Oriented Programming",
-      "Web Development",
-      "Databases",
-      "Full stack",
-      "Cloud Computing",
-      "Cybersecurity",
-      "Parallel Programming",
-      "Statistics",
-      "Probability",
-      "NLP",
-      "REST API",
-      "HTTP",
-      "MCP",
+      "Program Management",
+      "Project Management + Project Planning",
+      "Product Management",
+      "User Research",
+      "Digital Marketing",
+      "Content Marketing + Strategy",
+      "Workflow Documentation",
+      "Decision Support Through Data",
+      "User Interviews & Stakeholder Interviews",
+      "Dependency Management",
+      "RAID Framework",
+      "Agile Backlog Management",
     ],
   },
 };

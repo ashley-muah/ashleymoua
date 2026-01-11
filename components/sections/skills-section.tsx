@@ -9,22 +9,10 @@ export function SkillsSection() {
 
   const skillCategories = [
     {
-      title: "Languages",
+      title: "Languages/Technologies",
       icon: Code,
       skills: skills.languages,
       variant: "default" as const,
-    },
-    {
-      title: "Frameworks",
-      icon: Layers,
-      skills: skills.frameworks,
-      variant: "secondary" as const,
-    },
-    {
-      title: "Developer Tools",
-      icon: Wrench,
-      skills: skills.developerTools,
-      variant: "outline" as const,
     },
     {
       title: "Concepts",

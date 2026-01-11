@@ -11,7 +11,7 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "xckevin at cs dot washington dot edu",
+      value: "amoua1 at uw dot edu",
       href: `mailto:${personalInfo.email}`,
       description: "Send me an email",
     },
@@ -20,7 +20,6 @@ export function ContactSection() {
       label: "Phone",
       value: personalInfo.phone,
       href: `tel:${personalInfo.phone}`,
-      description: "Give me a call",
     },
     {
       icon: Linkedin,
