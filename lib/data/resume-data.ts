@@ -47,7 +47,7 @@ export interface Skills {
 
 export interface ResumeData {
   personalInfo: PersonalInfo;
-  education: Education;
+  education: Education[];
   experiences: Experience[];
   projects: Project[];
   skills: Skills;
@@ -70,27 +70,28 @@ export const resumeData: ResumeData = {
     ],
   },
 
-  education: {
-    institution: "University of Washington",
-    location: "Seattle, WA",
-    period: "2024-2026",
-    degrees: ["B.S. Informatics"],
-    achievements: ["Washington State Opportunity Scholar: Cohort 13", "Washington NASA Space Grant Recipient @ UW", "Panhellenic Endowment Scholarship Recipient", "Dean's List"],
-    coursework: [
-      "Client-side Development (HTML/CSS, JavaScript, React.js, Firebase)",
-      "Introduction to Java series",
-      "Data Science Foundations (R)",
-      "Research Methods",
-      "Cooperative Software Development",
-      "Databases & Data Modeling (SQL)",
-      "Design Methods (Figma)",
-      "Product & Information System Management",
-      "Project & Program Management",
-      "Content Strategy in Information Architecture",
-    ],
-    logo: "/logos/uw.png",
-  }
-  ,
+  education: [
+    {
+      institution: "University of Washington",
+      location: "Seattle, WA",
+      period: "2024-2026",
+      degrees: ["B.S. Informatics"],
+      achievements: ["Washington State Opportunity Scholar: Cohort 13", "Washington NASA Space Grant Recipient @ UW", "Panhellenic Endowment Scholarship Recipient", "Dean's List"],
+      coursework: [
+        "Client-side Development (HTML/CSS, JavaScript, React.js, Firebase)",
+        "Introduction to Java series",
+        "Data Science Foundations (R)",
+        "Research Methods",
+        "Cooperative Software Development",
+        "Databases & Data Modeling (SQL)",
+        "Design Methods (Figma)",
+        "Product & Information System Management",
+        "Project & Program Management",
+        "Content Strategy in Information Architecture",
+      ],
+      logo: "/logos/uw.png",
+    },
+  ],
 
   experiences: [
     {
