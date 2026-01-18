@@ -44,6 +44,11 @@ export function ProjectsSection() {
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     {project.description}
                   </p>
+                  {project.roles && (
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      {project.roles}
+                    </p>
+                  )}
                 </div>
 
                 {/* Technologies */}

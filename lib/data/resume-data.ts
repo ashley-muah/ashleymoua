@@ -33,6 +33,7 @@ export interface Project {
   name: string;
   date: string;
   description: string;
+  roles?: string;
   achievements: string[];
   technologies: string[];
   image?: string;
@@ -63,7 +64,7 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
-      "Currently an Analyst @ TalentBloom: Passenger Service System management for a global airline integration.",
+      "Currently an Analyst @ TalentBloom, working with a major global airline integration.",
       "Research Assistant in UW ADAPT",
       "Prev. gaming YouTuber and marketing intern.",
       "I love matcha, Pokémon, and chinchillas!"
@@ -109,7 +110,10 @@ export const resumeData: ResumeData = {
       location: "Bellevue, WA",
       period: "Oct 2025 – Current",
       description: [
+        "Consulting client: Global Airline Integration.",
         "Managing 630+ milestones & RAID logs in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration, and updating dashboards and decks for leadership.",
+        "Attend daily meetings with cross-functional stakeholders to ensure alignment on project deliverables and timelines.",
+        "Developing training materials for PSS and PowerPoints to communicate project updates to leadership and stakeholders.",
       ],
       technologies: [],
       logo: "/logos/talentbloom.jpg",
@@ -153,7 +157,7 @@ export const resumeData: ResumeData = {
       location: "Spokane, WA",
       period: "May 2023 – Sept 2024",
       description: [
-        "A passionate project where I supported local high school with college application resources, free essay editing, and a database of local scholarships.",
+        "A passionate project where I supported local high school with college application resources, free essay editing, and a database of local scholarships. Peers have won over $30,000 in scholarships with my advice. I have won nearly $45,000 in outside scholarships alone!",
       ],
       technologies: [],
       logo: "/logos/gradcap.jpg",
@@ -162,93 +166,69 @@ export const resumeData: ResumeData = {
 
   projects: [
     {
-      name: "WMarketplace",
-      date: "January 2026 - Present",
+      name: "State of the Girl Report",
+      date: "January 2026 - June 2026",
       description:
-        "Versatile iOS mobile application that connects users to emergency contacts with ubiquitous phone sensor data and an AI Voice Agent when it isn't convenient to take your phone out. Provides a wide array of discreet triggers like the action button or sudden motion.",
+        "Developing the first ever 'State of the Girl' article for Washington. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends. The Girl collective will become an established powerhouse that represents the voices of Washington state girls to steer policy and programming across the state with dedicated funding to ensure girls well-being and thriving is essential.",
       achievements: [
-        "Project for Dubhacks 2025",
-        "Used Twilio for calling and Ultravox for AI Agent",
-      ],
-      technologies: [],
-      image: "/projects/discreetly.png",
-      link: "https://devpost.com/software/discreetly-q9ij40",
-    },
-    {
-      name: "Sussi",
-      date: "June 2025",
-      description:
-        "Intelligent student laptop monitoring system with quick classroom insights and automation. Won 1st place at Meta Llama 4 Seattle Hackathon against 200+ competitors and gained pre-seed investor attention.",
-      achievements: [
-        "Placed 1st at Meta Llama 4 Seattle Hackathon, competing against 200+ top college and full-time competitors",
-        "Built a Next.js teacher client and a SwiftUI MacOS student client that interface through MongoDB Atlas",
-        "Gained pre-seed investor attention for startup potential and interviewed with Afore VC",
-      ],
-      technologies: ["Next.js", "SwiftUI", "MongoDB", "Llama 4 API"],
-      image: "/projects/sussi.png",
-      link: "https://www.youtube.com/watch?v=9fk_h4dAfGA",
-    },
-    {
-      name: "Triage",
-      date: "October 2024",
-      description:
-        "AI disaster assessment and detection tool using satellite imagery to improve emergency response. Won 1st place out of 1000+ participants at DubHacks '24, the largest hackathon in the Pacific Northwest.",
-      achievements: [
-        "Placed 1st out of 1000+ participants at DubHacks '24, the largest hackathon in the Pacific Northwest",
-        "Built with Next.js frontend, Python Flask backend, Intel Tiber hosting, and AWS CloudFormationStack",
+        "Funded by Girl Scouts of America",
       ],
       technologies: [
-        "Next.js",
-        "Flask",
-        "HTML/CSS",
-        "Perplexity AI",
-        "SAM 2",
-        "REST API",
+        "Funded by Girl Scouts of America",
+        "Directed by WMarketplace",
       ],
-      image: "/projects/triage.png",
-      link: "https://devpost.com/software/triage-k7vr5n",
+      image:"/projects/Girlscouts.jpg",
+      link: "",
     },
     {
-      name: "ClinicChatBot",
-      date: "July 2023",
+      name: "FashionForward",
+      date: "April 2025",
       description:
-        "Full-stack RAG chatbot with fine-tuned GPT-3.5-turbo for clinic website visitors. Deployed to a local acupuncture clinic, achieving an 86% reduction in average customer service ticket lifetime.",
-      achievements: [
-        "Deployed system to a local acupuncture clinic for an 86% reduction in the average customer service ticket lifetime",
-      ],
-      technologies: ["Flask", "OpenAI API", "ChromaDB"],
-      image: "/projects/clinicchatbot.png",
-      link: "https://github.com/xckev/clinicchatbot",
+        "A product management project where we designed a traceability platform to better serve internal stakeholders and consumers.",
+      achievements: [ ],
+      technologies: ["Azure DevOps", "Miro", "Figma"],
+      image: "/logos/OO715I0.jpg",
+      link: "https://dev.azure.com/info380BB/Section%201/_wiki/wikis/Section-1.wiki/45/Executive-Summary",
     },
     {
-      name: "CipherBot",
-      date: "November 2022",
+      name: "TuitionBud AI",
+      date: "April 2025",
       description:
-        "An open source Discord bot written in Python that does all things Cryptography. CipherBot helps you encrypt/decrypt secret messages to friends, vote in secure polls, check cryptocurrency prices, and more!",
+        "Project managed & UX designed an AI Chrome Extension that helps students find scholarships and grants based on their input.",
+      roles: "Roles: Project management, feature ideating, data cleaning, and UX",
       achievements: [
-        "An open source Discord bot written in Python that utilizes cryptographic algorithms", 
-        "Inspired by the Stanford Summer Institutes Cryptography/Cryptocurrency Course",
-        "Allows users to encrypt/decrypt messages with Diffie-Hellman Key Exchange and Public Key Encryption",
-        "Emulation of mix-networks and homomorphic encryption for secure voting, a crucial part of modern political integrity",
-        "Retrieves cryptocurrency prices from coinmarketcap.com",
       ],
-      technologies: ["Discord API", "CoinMarketCap API", "Microsoft SEAL Homomorphic Encryption"],
-      image: "/projects/cipherbot.png",
-      link: "https://github.com/xckev/CipherBot",
+      technologies: [
+        "R",
+        "Figma",
+        "Notion",
+      ],
+      image: "/projects/TuitionBud.png",
+      link: "https://www.canva.com/design/DAGtW18hmVg/-tu7VGhTEj1BdiQs963THQ/edit?utm_content=DAGtW18hmVg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     },
     {
-      name: "Lavablock",
-      date: "September 2020",
+      name: "GoodReads ER Diagram & SQL Queries",
+      date: "March 2025",
       description:
-        "A simple but fun 2D game run on Java's native graphics engine. The first video game I ever made, introducing myself to many aspects of game design.",
+        "Drafted a business case to serve the online book community website called GoodReads. Implemented a schema, ER diagram, and created 10 SQL queries using Kaggle data to show the insights on GoodReads. Populated tables with synthetic data from GPT. Includes queries such as Ranked & Witness",
+      achievements: [      ],
+      technologies: ["SQL", "FigJam"],
+      image: "/projects/ERDiagram.png",
+      link: "https://drive.google.com/file/d/1pfJBis2ekYsyHDWR15gsDqtnhSlILkRo/view?usp=sharing",
+    },
+    {
+      name: "YouTuber",
+      date: "Dec 2021 - April 2023",
+      description:
+        "Yeah I was a Roblox YouTube before coming to university.",
       achievements: [
-        "A simple but fun 2D game run on Java's native graphics engine", 
-        "A refinement of the first video game I made, which was coded in Python",
-        "Introduced myself to many aspects of game design",
+        "27k watch hours",
+        "865k views",
+        "5.6 million impressions",
       ],
-      technologies: ["Java", "Bensound Music"],
-      image: "/projects/lavablock.png",
-      link: "https://github.com/xckev/LavaBlockGame",
+      technologies: ["Canva", "Google AdSense", "DaVinci Resolve", "CapCut"],
+      image: "/projects/stats.png",
+      link: "",
     },
   ],
 

@@ -1,26 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import { resumeData } from "@/lib/data/resume-data";
 import { Separator } from "@/components/ui/separator";
-import { ChevronDown, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export function ExperienceSection() {
   const { experiences } = resumeData;
-  const [expandedIndices, setExpandedIndices] = useState<Set<number>>(new Set());
-
-  const toggleExpand = (index: number) => {
-    setExpandedIndices(prev => {
-      const next = new Set(prev);
-      if (next.has(index)) {
-        next.delete(index);
-      } else {
-        next.add(index);
-      }
-      return next;
-    });
-  };
 
   return (
     <section id="experience" className="py-6 px-4">
@@ -31,10 +16,7 @@ export function ExperienceSection() {
         <div className="space-y-4">
           {experiences.map((exp, index) => (
             <div key={index} className="border-b border-border pb-4 last:border-b-0">
-              <div
-                className="flex items-start gap-4 cursor-pointer"
-                onClick={() => toggleExpand(index)}
-              >
+              <div className="flex items-start gap-4">
                 {/* Company Logo */}
                 <div className="shrink-0 w-12 h-12 relative rounded-md overflow-hidden flex items-center justify-center">
                   {exp.logo ? (
@@ -57,11 +39,6 @@ export function ExperienceSection() {
                         <h3 className="font-semibold text-base text-foreground">
                           {exp.company}
                         </h3>
-                        {expandedIndices.has(index) ? (
-                          <ChevronDown className="h-4 w-4 text-muted-foreground" />
-                        ) : (
-                          <ChevronRight className="h-4 w-4 text-muted-foreground" />
-                        )}
                       </div>
                       <p className="text-sm text-muted-foreground mt-0.5">
                         {exp.title}
@@ -74,18 +51,16 @@ export function ExperienceSection() {
                 </div>
               </div>
 
-              {/* Collapsible Content */}
-              {expandedIndices.has(index) && (
-                <div className="mt-3 ml-16 space-y-1">
-                  <ul className="space-y-1.5">
-                    {exp.description.map((desc, i) => (
-                      <li key={i} className="text-sm text-muted-foreground">
-                        {desc}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              {/* Content */}
+              <div className="mt-3 ml-16 space-y-1">
+                <ul className="space-y-1.5">
+                  {exp.description.map((desc, i) => (
+                    <li key={i} className="text-sm text-muted-foreground">
+                      {desc}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           ))}
         </div>

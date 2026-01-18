@@ -1,6 +1,6 @@
 import { resumeData } from "@/lib/data/resume-data";
 import { Button } from "@/components/ui/button";
-import { FileText, Linkedin as LinkedinIcon, Github as GithubIcon } from "lucide-react";
+import { FileText, Linkedin as LinkedinIcon } from "lucide-react";
 import Image from "next/image";
 import { SpotifyNowPlaying } from "@/components/spotify-now-playing";
 
@@ -48,16 +48,6 @@ export function HeroSection() {
                 >
                   <LinkedinIcon className="h-4 w-4" />
                   LinkedIn
-                </a>
-              </Button>
-              <Button asChild variant="outline" size="sm" className="gap-2">
-                <a
-                  href={`https://${personalInfo.github}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GithubIcon className="h-4 w-4" />
-                  GitHub
                 </a>
               </Button>
             </div>

@@ -2,7 +2,7 @@ import { resumeData } from "@/lib/data/resume-data";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, Linkedin, Github } from "lucide-react";
+import { Mail, Phone, Linkedin } from "lucide-react";
 
 export function ContactSection() {
   const { personalInfo } = resumeData;
@@ -16,12 +16,6 @@ export function ContactSection() {
       description: "Send me an email",
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: personalInfo.phone,
-      href: `tel:${personalInfo.phone}`,
-    },
-    {
       icon: Linkedin,
       label: "LinkedIn",
       value: personalInfo.linkedin,
@@ -29,11 +23,10 @@ export function ContactSection() {
       description: "Connect on LinkedIn",
     },
     {
-      icon: Github,
-      label: "GitHub",
-      value: personalInfo.github,
-      href: `https://${personalInfo.github}`,
-      description: "Check out my code",
+      icon: Phone,
+      label: "Phone",
+      value: personalInfo.phone,
+      href: `tel:${personalInfo.phone}`,
     },
   ];
 
@@ -49,26 +42,27 @@ export function ContactSection() {
               I&apos;m open to new opportunities. Feel free to reach out!
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 auto-rows-fr">
               {contactMethods.map((method, index) => {
                 const Icon = method.icon;
+                const isLinkedIn = method.label === "LinkedIn";
                 return (
                   <Button
                     key={index}
                     asChild
                     variant="outline"
                     size="sm"
-                    className="h-auto py-3 flex-col items-start gap-1"
+                    className={`h-full py-3 flex-col items-start gap-1 ${isLinkedIn ? "sm:row-span-2" : ""}`}
                   >
                     <a
                       href={method.href}
                       target={
-                        method.label === "LinkedIn" || method.label === "GitHub"
+                        method.label === "LinkedIn"
                           ? "_blank"
                           : undefined
                       }
                       rel={
-                        method.label === "LinkedIn" || method.label === "GitHub"
+                        method.label === "LinkedIn"
                           ? "noopener noreferrer"
                           : undefined
                       }
