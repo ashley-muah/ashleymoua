@@ -10,9 +10,13 @@ export function AboutSection() {
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <Separator className="mb-6" />
 
+        <p className="text-sm text-muted-foreground mb-4">
+          I'm a student at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management).
+        </p>
+
         <ul className="space-y-2 text-sm text-muted-foreground">
           {
-            personalInfo.abouts.map((item, idx) => (
+            personalInfo.abouts.slice(1).map((item, idx) => (
               <li key={idx}>• {item}</li>
             ))
           }

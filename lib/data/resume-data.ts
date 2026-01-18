@@ -64,6 +64,7 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
+      "I'm a student at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management) and marketing.",
       "Currently an Analyst @ TalentBloom, working with a major global airline integration.",
       "Research Assistant in UW ADAPT",
       "Prev. gaming YouTuber and marketing intern.",
