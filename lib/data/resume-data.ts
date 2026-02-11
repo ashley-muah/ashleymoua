@@ -64,7 +64,7 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
-      "I'm a student at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management) and marketing.",
+      "I'm a student at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management) and marketing. I love seeing the bigger picture and building relationships with a variety of teams.",
       "Currently an Analyst @ TalentBloom, working with a major global airline integration.",
       "Research Assistant in UW ADAPT",
       "Prev. gaming YouTuber and marketing intern.",
@@ -84,7 +84,7 @@ export const resumeData: ResumeData = {
         "Introduction to Java series",
         "Data Science Foundations (R)",
         "Research Methods",
-        "Cooperative Software Development",
+        "Cooperative Software Development (JavaScript, React,js)",
         "Databases & Data Modeling (SQL)",
         "Design Methods (Figma)",
         "Product & Information System Management",
@@ -111,12 +111,12 @@ export const resumeData: ResumeData = {
       location: "Bellevue, WA",
       period: "Oct 2025 – Current",
       description: [
-        "Consulting client: Global Airline Integration.",
-        "Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
-        "Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
-        "Monitored program health, dependencies, actions, and progress on SmartSheet",
-        "Supported cutover training logistics for a passenger project, aligning 3 stakeholder groups per station ahead of go-live.",
-        "Directed development and refinement of a training slide deck, enabling support for 32 station leaders ahead of cutover.",
+        "- Consulting client: Global Airline Integration.",
+        "- Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
+        "- Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
+        "- Monitored program health, dependencies, actions, and progress on SmartSheet",
+        "- Supported cutover training logistics for a passenger project, aligning 3 stakeholder groups per station ahead of go-live.",
+        "- Directed development and refinement of a training slide deck, enabling support for 32 station leaders ahead of cutover.",
       ],
       technologies: [],
       logo: "/logos/talentbloom.jpg",
@@ -144,17 +144,6 @@ export const resumeData: ResumeData = {
       logo: "/logos/hunch.jpg",
     },
     {
-      title: "Content Creator",
-      company: "YouTuber",
-      location: "Spokane, WA",
-      period: "Dec 2021 – April 2023",
-      description: [
-        "Roblox YouTuber with 5.6 million impressions & over 865k total views. Monetized by Google AdSense, generating over $2,300 in revenue. COVID-19 was an interesting time.",
-      ],
-      technologies: ["Canvas, Google Adsense, DaVinci Resolve, CapCut"],
-      logo: "/logos/youtube.jpg",
-    },
-    {
       title: "Coach ",
       company: "College Admissions & Scholarship Peer Resource",
       location: "Spokane, WA",
@@ -165,8 +154,18 @@ export const resumeData: ResumeData = {
       technologies: [],
       logo: "/logos/gradcap.jpg",
     },
+      {
+      title: "Content Creator",
+      company: "YouTuber",
+      location: "Spokane, WA",
+      period: "Dec 2021 – April 2023",
+      description: [
+        "Roblox YouTuber with 5.6 million impressions & over 865k total views. Monetized by Google AdSense, generating over $2,300 in revenue. COVID-19 was an interesting time.",
+      ],
+      technologies: ["Canvas, Google Adsense, DaVinci Resolve, CapCut"],
+      logo: "/logos/youtube.jpg",
+    },
   ],
-
   projects: [
     {
       name: "State of the Girl Report",
@@ -223,7 +222,7 @@ export const resumeData: ResumeData = {
       name: "YouTuber",
       date: "Dec 2021 - April 2023",
       description:
-        "Yeah I was a Roblox YouTube before coming to university.",
+        "Yeah I was a Roblox YouTuber before coming to university... I used to be good at rhythm games. 27k watch hours, endless amounts of Discord calls, and lots of fun.",
       achievements: [
         "27k watch hours",
         "865k views",
