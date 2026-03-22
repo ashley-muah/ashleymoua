@@ -64,10 +64,10 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
-      "I'm a student at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management) and marketing. I love seeing the bigger picture and building relationships with a variety of teams.",
-      "Currently an Analyst @ TalentBloom, working with a major global airline integration.",
+      "I'm a student at UW Seattle studying Informatics and I make things happen. I am passionate about project management, program management, and marketing. I'm a creative thinker who loves seeing the bigger picture and building relationships with stakeholders + communities.",
+      "Currently a Program and Project Manager Support @ TalentBloom LLC., working with a major global airline integration.",
       "Research Assistant in UW ADAPT",
-      "Prev. gaming YouTuber and marketing intern.",
+      "Prev. gaming YouTuber, content creator, and marketing intern.",
       "I love matcha, Pokémon, and chinchillas!"
     ],
   },
@@ -90,6 +90,7 @@ export const resumeData: ResumeData = {
         "Product & Information System Management",
         "Project & Program Management",
         "Content Strategy in Information Architecture",
+        "CURRENTLY ENROLLED IN: Visual Information Design, Information Science in Pop Culture, and continuing my capstone with Girl Scouts of Western Washington."
       ],
       logo: "/logos/uw.png",
     },
@@ -99,19 +100,20 @@ export const resumeData: ResumeData = {
       period: "2023-2024",
       degrees: ["Associate's in Arts: Direct Transfer Agreement"],
       achievements: ["Don Olson Scholarship Recipient", "Dean's List"],
-      coursework: ["Mainly more Java programming classes"],
+      coursework: ["Mainly Java programming classes"],
       logo: "/logos/scc.jpg",
     },
   ],
 
   experiences: [
     {
-      title: "Analyst",
+      title: "Program and Project Manager Support",
       company: "TalentBloom",
       location: "Bellevue, WA",
       period: "Oct 2025 – Current",
       description: [
-        "- Consulting client: Global Airline Integration.",
+        "Consulting client: Global Airline Integration.",
+        "Program: Airline Integration | Project: Passenger Services Systems",
         "- Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
         "- Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
         "- Monitored program health, dependencies, actions, and progress on SmartSheet",
@@ -163,10 +165,24 @@ export const resumeData: ResumeData = {
         "Roblox YouTuber with 5.6 million impressions & over 865k total views. Monetized by Google AdSense, generating over $2,300 in revenue. COVID-19 was an interesting time.",
       ],
       technologies: ["Canvas, Google Adsense, DaVinci Resolve, CapCut"],
-      logo: "/logos/youtube.jpg",
+      logo: "/logos/Roblox.Logo.jpg",
     },
   ],
-  projects: [
+    projects: [
+    {
+      name: "Roblox Report Workflow",
+      date: "January 2026 - March 2026",
+      description:
+        "Ideated and designed a 6-month pilot project plan that introduces checkpoints in the Roblox reporting workflow to improve report transparency to its users. I conducted risk analysis, critical path shifts, and the escalation process.This project does not improve moderation outcomes directly—it focuses on communication and visibility of the reporting process.",
+      achievements: [
+      ],
+      technologies: [
+        "Miro",
+        "Figma",
+      ],
+      image:"/projects/Girlscouts.jpg",
+      link: "https://drive.google.com/drive/folders/1aJnL6C6_1CRRbv5yLKUeTn_vsY0CX456?usp=drive_link",
+    },
     {
       name: "State of the Girl Report",
       date: "January 2026 - June 2026",
