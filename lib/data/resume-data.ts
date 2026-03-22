@@ -64,7 +64,6 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
-      "I'm a student at UW Seattle studying Informatics and I make things happen. I am passionate about project management, program management, and marketing. I'm a creative thinker who loves seeing the bigger picture and building relationships with stakeholders + communities.",
       "Currently a Program and Project Manager Support @ TalentBloom LLC., working with a major global airline integration.",
       "Research Assistant in UW ADAPT",
       "Prev. gaming YouTuber, content creator, and marketing intern.",
@@ -90,7 +89,9 @@ export const resumeData: ResumeData = {
         "Product & Information System Management",
         "Project & Program Management",
         "Content Strategy in Information Architecture",
-        "CURRENTLY ENROLLED IN: Visual Information Design, Information Science in Pop Culture, and continuing my capstone with Girl Scouts of Western Washington."
+        "Visual Information Design",
+        "Information Science in Pop Culture",
+        "Capstone with Girl Scouts of Western Washington",
       ],
       logo: "/logos/uw.png",
     },
@@ -165,7 +166,7 @@ export const resumeData: ResumeData = {
         "Roblox YouTuber with 5.6 million impressions & over 865k total views. Monetized by Google AdSense, generating over $2,300 in revenue. COVID-19 was an interesting time.",
       ],
       technologies: ["Canvas, Google Adsense, DaVinci Resolve, CapCut"],
-      logo: "/logos/Roblox.Logo.jpg",
+      logo: "/logos/youtube.jpg",
     },
   ],
     projects: [
@@ -180,7 +181,7 @@ export const resumeData: ResumeData = {
         "Miro",
         "Figma",
       ],
-      image:"/projects/Girlscouts.jpg",
+      image:"/logos/Roblox.Logo.jpg",
       link: "https://drive.google.com/drive/folders/1aJnL6C6_1CRRbv5yLKUeTn_vsY0CX456?usp=drive_link",
     },
     {

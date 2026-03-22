@@ -11,7 +11,7 @@ export function AboutSection() {
         <Separator className="mb-6" />
 
         <p className="text-sm text-muted-foreground mb-4">
-          I'm a at UW Seattle studying Informatics, passionate about all the PMs (project, program, and product management).
+      I'm a student at UW Seattle studying Informatics and I make things happen. I am passionate about project management, program management, and marketing. I'm a creative thinker who loves seeing the bigger picture and building relationships with stakeholders + communities.
         </p>
 
         <ul className="space-y-2 text-sm text-muted-foreground">
