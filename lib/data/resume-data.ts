@@ -7,6 +7,7 @@ export interface PersonalInfo {
   linkedin: string;
   github: string;
   abouts: string[];
+  whatsNew: string[];
 }
 
 export interface Education {
@@ -68,6 +69,8 @@ export const resumeData: ResumeData = {
       "Research Assistant in UW ADAPT",
       "Prev. gaming YouTuber, content creator, and marketing intern.",
       "I love matcha, Pokémon, and chinchillas!"
+    ],
+    whatsNew: [
     ],
   },
 
