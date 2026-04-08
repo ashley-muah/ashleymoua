@@ -147,7 +147,7 @@ export const resumeData: ResumeData = {
       logo: "/logos/hunch.jpg",
     },
     {
-      title: "Coach ",
+      title: "Coach & Resource Provider",
       company: "College Admissions & Scholarship Peer Resource",
       location: "Spokane, WA",
       period: "May 2023 – Sept 2024",
@@ -174,7 +174,7 @@ export const resumeData: ResumeData = {
       name: "Roblox Report Workflow",
       date: "January 2026 - March 2026",
       description:
-        "Ideated and designed a 6-month pilot project plan that introduces checkpoints in the Roblox reporting workflow to improve report transparency to its users. I conducted risk analysis, critical path shifts, and the escalation process.This project does not improve moderation outcomes directly—it focuses on communication and visibility of the reporting process.",
+        "Ideated and designed a 6-month pilot project plan that introduces checkpoints in the Roblox reporting workflow to improve report transparency to its users. I conducted risk analysis, critical path shifts, and the escalation process. Focuses on communication and visibility of the reporting process.",
       achievements: [
       ],
       technologies: [
@@ -185,19 +185,19 @@ export const resumeData: ResumeData = {
       link: "https://drive.google.com/drive/folders/1aJnL6C6_1CRRbv5yLKUeTn_vsY0CX456?usp=drive_link",
     },
     {
-      name: "State of the Girl Report",
+      name: "State of the Girl Report (IN-PROGRESS)",
       date: "January 2026 - June 2026",
       description:
-        "Developing the first ever 'State of the Girl' article for Washington. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends. The Girl collective will become an established powerhouse that represents the voices of Washington state girls to steer policy and programming across the state with dedicated funding to ensure girls well-being and thriving is essential.",
+        "Directed by WMarketplace. Funded by Girl Scouts of America. Our team is developing the first ever 'State of the Girl' data report for Washington by analyzing and disaggregating Girls' Washington state data. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends in Girls. Role: data analysis for social wellness, project management, design, data visualization.",
       achievements: [
         "Funded by Girl Scouts of America",
       ],
       technologies: [
-        "Funded by Girl Scouts of America",
-        "Directed by WMarketplace",
+        "Canva",
+        "Flourish",
       ],
       image:"/projects/Girlscouts.jpg",
-      link: "",
+      link: "https://canva.link/wjvzgfpd600unjq",
     },
     {
       name: "FashionForward",
