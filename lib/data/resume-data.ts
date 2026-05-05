@@ -65,9 +65,6 @@ export const resumeData: ResumeData = {
     linkedin: "linkedin.com/in/ashley-moua1",
     github: "github.com/ashley-muah",
     abouts: [
-      "Currently a Program and Project Manager Support @ TalentBloom LLC., working with a major global airline integration.",
-      "Research Assistant in UW ADAPT",
-      "Prev. gaming YouTuber, content creator, and marketing intern.",
       "I love matcha, Pokémon, and chinchillas!"
     ],
     whatsNew: [
@@ -111,10 +108,21 @@ export const resumeData: ResumeData = {
 
   experiences: [
     {
+      title: "Segment and Field Marketing Internship",
+      company: "Adobe",
+      location: "San Jose, CA",
+      period: "June 2026",
+      description: [
+        "Incoming Summer 2026",
+      ],
+      technologies: [],
+      logo: "/logos/adobe.jpg",
+    },
+    {
       title: "Program and Project Manager Support",
       company: "TalentBloom",
       location: "Bellevue, WA",
-      period: "Oct 2025 – Current",
+      period: "Oct 2025 – April 2026",
       description: [
         "Consulting client: Global Airline Integration.",
         "Program: Airline Integration | Project: Passenger Services Systems",
