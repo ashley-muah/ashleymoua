@@ -120,20 +120,19 @@ export const resumeData: ResumeData = {
     },
     {
       title: "Program and Project Manager Support",
-      company: "TalentBloom",
+      company: "Alaska Airlines | Hawaiian Airlines",
       location: "Bellevue, WA",
-      period: "Oct 2025 – April 2026",
+      period: "Oct 2025 – May 2026",
       description: [
-        "Consulting client: Global Airline Integration.",
         "Program: Airline Integration | Project: Passenger Services Systems",
-        "- Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
-        "- Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
-        "- Monitored program health, dependencies, actions, and progress on SmartSheet",
-        "- Supported cutover training logistics for a passenger project, aligning 3 stakeholder groups per station ahead of go-live.",
-        "- Directed development and refinement of a training slide deck, enabling support for 32 station leaders ahead of cutover.",
+        "Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
+        "Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
+        "Monitored program health, dependencies, actions, and progress on SmartSheet",
+        "Maintained compliance with EPMO standards and closeout requirements through detailed documentation and reporting.",
+        "Directed development and refinement of a training slide deck, enabling support for 32 station leaders ahead of cutover.",
       ],
       technologies: [],
-      logo: "/logos/talentbloom.jpg",
+      logo: "/logos/Alaska-Emblem.png",
     },
     {
       title: "Research Assistant",
@@ -141,7 +140,8 @@ export const resumeData: ResumeData = {
       location: "Seattle, WA",
       period: "July 2025 – Present",
       description: [
-        "Led advisory board recruitment & designed campaigns for participant recruitment. ",
+        "Led advisory board recruitment & designed campaigns on Canva for participant recruitment.",
+        "Drove in 12K+ impressions on Instagram, 255 candidates overall, and 83 qualified candidates in 1.5 months.",
       ],
       technologies: [],
       logo: "/logos/adapt.jpg",
@@ -185,7 +185,7 @@ export const resumeData: ResumeData = {
       name: "Roblox Report Workflow",
       date: "January 2026 - March 2026",
       description:
-        "Ideated and designed a 6-month pilot project plan that introduces checkpoints in the Roblox reporting workflow to improve report transparency to its users. I conducted risk analysis, critical path shifts, and the escalation process. Focuses on communication and visibility of the reporting process.",
+        "Ideated and designed a 6-month pilot project concept that introduces checkpoints in the Roblox reporting workflow to improve report transparency to its users. I conducted risk analysis, critical path shifts, and the escalation process. Focuses on communication and visibility of the reporting process.",
       achievements: [
       ],
       technologies: [
@@ -199,7 +199,7 @@ export const resumeData: ResumeData = {
       name: "State of the Girl Report (IN-PROGRESS)",
       date: "January 2026 - June 2026",
       description:
-        "Directed by WMarketplace. Funded by Girl Scouts of America. Our team is developing the first ever 'State of the Girl' data report for Washington by analyzing and disaggregating Girls' Washington state data. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends in Girls. Role: data analysis for social wellness, project management, design, data visualization.",
+        "Directed by WMarketplace. Funded by Girl Scouts of America. Our team is developing the first ever 'State of the Girl' data report for Washington by analyzing and disaggregating Girls' Washington state data. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends in Girls. Role: data analysis for social wellness, project management, design, data visualization & researcher.",
       achievements: [
         "Funded by Girl Scouts of America",
       ],
@@ -294,6 +294,7 @@ export const resumeData: ResumeData = {
       "Dependency Management",
       "RAID Framework",
       "Agile Backlog Management",
+      "Community Management",
     ],
   },
 };

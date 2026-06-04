@@ -11,7 +11,7 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "amoua1 at uw dot edu",
+      value: "hxyp4ash at gmail dot com",
       href: `mailto:${personalInfo.email}`,
       description: "Send me an email",
     },

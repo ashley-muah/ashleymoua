@@ -35,7 +35,7 @@ export function HeroSection() {
             </p>
             <div className="flex flex-wrap items-center justify-center md:justify-start gap-3">
               <Button asChild variant="outline" size="sm" className="gap-2">
-                <a href="/Ash Moua April '26 Resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Ashley Moua June Resume .pdf" target="_blank" rel="noopener noreferrer">
                   <FileText className="h-4 w-4" />
                   Resume
                 </a>
