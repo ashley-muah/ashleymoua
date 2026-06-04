@@ -119,9 +119,9 @@ export const resumeData: ResumeData = {
       logo: "/logos/adobe.jpg",
     },
     {
-      title: "Program and Project Manager Support",
+      title: "Program and Project Manager Support (Contract)",
       company: "Alaska Airlines | Hawaiian Airlines",
-      location: "Bellevue, WA",
+      location: "Renton, WA",
       period: "Oct 2025 – May 2026",
       description: [
         "Program: Airline Integration | Project: Passenger Services Systems",
