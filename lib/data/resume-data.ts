@@ -108,7 +108,7 @@ export const resumeData: ResumeData = {
 
   experiences: [
     {
-      title: "Segment and Field Marketing Internship",
+      title: "Segment and Field Internship",
       company: "Adobe",
       location: "San Jose, CA",
       period: "June 2026 - September",
@@ -198,7 +198,7 @@ export const resumeData: ResumeData = {
       link: "https://drive.google.com/drive/folders/1aJnL6C6_1CRRbv5yLKUeTn_vsY0CX456?usp=drive_link",
     },
     {
-      name: "State of the Girl Report (IN-PROGRESS)",
+      name: "State of the Girl Report",
       date: "January 2026 - June 2026",
       description:
         "Directed by WMarketplace. Funded by Girl Scouts of America. Our team is developing the first ever 'State of the Girl' data report for Washington by analyzing and disaggregating Girls' Washington state data. The objective is to utilize data online to help programming in order to mobilize resources and highlight opportunities and trends in Girls. Role: data analysis for social wellness, project management, design, data visualization & researcher.",
@@ -210,7 +210,7 @@ export const resumeData: ResumeData = {
         "Flourish",
       ],
       image:"/projects/Girlscouts.jpg",
-      link: "https://canva.link/wjvzgfpd600unjq",
+      link: "https://canva.link/nujman8rp5hw15x",
     },
     {
       name: "FashionForward",
