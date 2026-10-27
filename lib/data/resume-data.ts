@@ -118,7 +118,7 @@ export const resumeData: ResumeData = {
         "Ideate, design, and implement game features, mechanics, and systems to enhance player engagement and retention using Codex, Blender, and Figma.",
       ],
       technologies: [],
-      logo: "/logos/Roblox.logo.jpg",
+      logo: "/logos/Roblox.Logo.jpg",
     },
     {
       title: "Segment and Field Internship",
@@ -126,7 +126,7 @@ export const resumeData: ResumeData = {
       location: "San Jose, CA",
       period: "June 2026 - September",
       description: [
-        "Leading development, research, and pilot of an AI tool that recommends contacts across 12 pilot accounts, reducing manual account research for Marketing, Sales, Account Directors, and Business Reps teams",
+        "Led development, discovery, and research of an AI tool concept that recommende contacts across 12 pilot accounts. This would reduce manual account research for Marketing, Sales, Account Directors, and Business Reps teams",
       ],
       technologies: [],
       logo: "/logos/adobe.jpg",
