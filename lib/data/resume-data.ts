@@ -113,11 +113,12 @@ export const resumeData: ResumeData = {
       location: "Remote",
       period: "Oct 2026 - present",
       description: [
-        "Independently producing and monetizing simulation tycoon games on Roblox",
-        "Ideate, design, and implement game features, mechanics, and systems to enhance player engagement and retention using Codex, Blender, and Figma",
+        "Independently producing and monetizing simulation tycoon games on Roblox.",
+        "Use Roblox Ads Manager to create and manage ad campaigns for my games, analyzing data to optimize for player retention, in-game purchases, and overall engagement.",
+        "Ideate, design, and implement game features, mechanics, and systems to enhance player engagement and retention using Codex, Blender, and Figma.",
       ],
       technologies: [],
-      logo: "/logos/Roblox.logo.png",
+      logo: "/logos/Roblox.logo.jpg",
     },
     {
       title: "Segment and Field Internship",
