@@ -126,7 +126,7 @@ export const resumeData: ResumeData = {
       location: "San Jose, CA",
       period: "June 2026 - September",
       description: [
-        "Led development, discovery, and research of an AI tool concept that recommende contacts across 12 pilot accounts. This would reduce manual account research for Marketing, Sales, Account Directors, and Business Reps teams",
+        "Led development, discovery, and research of an AI tool concept that condenses and recommends contacts across 12 pilot accounts. This would reduce manual account research for Marketing, Sales, Account Directors, and Business Reps teams",
       ],
       technologies: [],
       logo: "/logos/adobe.jpg",
