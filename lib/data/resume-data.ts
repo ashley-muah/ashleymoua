@@ -107,6 +107,18 @@ export const resumeData: ResumeData = {
   ],
 
   experiences: [
+        {
+      title: "Roblox Game Producer (Independent)",
+      company: "Roblox",
+      location: "Remote",
+      period: "Oct 2026 - present",
+      description: [
+        "Independently producing and monetizing simulation tycoon games on Roblox",
+        "Ideate, design, and implement game features, mechanics, and systems to enhance player engagement and retention using Codex, Blender, and Figma",
+      ],
+      technologies: [],
+      logo: "/logos/Roblox.logo.png",
+    },
     {
       title: "Segment and Field Internship",
       company: "Adobe",
@@ -114,9 +126,6 @@ export const resumeData: ResumeData = {
       period: "June 2026 - September",
       description: [
         "Leading development, research, and pilot of an AI tool that recommends contacts across 12 pilot accounts, reducing manual account research for Marketing, Sales, Account Directors, and Business Reps teams",
-        "Supported 3 field marketing events by coordinating attendee logistics, customer engagement, and day-of execution",
-        "Facilitated weekly stakeholder reviews, tracked action items, and aligned teams on my project milestones and pilot readiness",
-        "Conducted 8 user interviews across Sales and Marketing to uncover pain points and define 4 main product features",
       ],
       technologies: [],
       logo: "/logos/adobe.jpg",
@@ -128,11 +137,10 @@ export const resumeData: ResumeData = {
       period: "Oct 2025 – May 2026",
       description: [
         "Program: Airline Integration | Project: Passenger Services Systems",
-        "Oversaw 92+ program-wide milestones and 35+ RAID items in Smartsheet, tracking readiness across station leaders for Passenger Services Systems and AOCS Integration.",
-        "Coordinated daily with cross-functional teams to drive action ownership and resolve risks and issues.",
-        "Monitored program health, dependencies, actions, and progress on SmartSheet",
-        "Maintained compliance with EPMO standards and closeout requirements through detailed documentation and reporting.",
-        "Produced 72 training assets supporting rollout across 24 airport stations, enabling leaders to prepare for system rollout"      ],
+        "Drafted daily meeting invitations, reminders, and follow-ups to request stakeholder updates to Smartsheet trackers",
+        "Evaluated delays for impacts and escalated issues affecting dependent milestones to management for mitigation planning",
+        "Documented weekly PSS meeting reviews and prepared meeting summaries for absent stakeholders"
+      ],
       technologies: [],
       logo: "/logos/Alaska-Emblem.png",
     },
