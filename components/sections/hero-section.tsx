@@ -17,7 +17,7 @@ export function HeroSection() {
           <div className="shrink-0">
             <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-border shadow-lg">
               <Image
-                src="/ashley.jpg"
+                src="/logos/headshot.jpeg"
                 alt={personalInfo.name}
                 fill
                 className="object-cover"
